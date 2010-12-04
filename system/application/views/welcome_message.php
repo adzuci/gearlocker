@@ -47,6 +47,8 @@ code {
 
 <p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
+<h1>WE ARE SO DEAD</h1>
+
 <p>If you would like to edit this page you'll find it located at:</p>
 <code>system/application/views/welcome_message.php</code>
 
