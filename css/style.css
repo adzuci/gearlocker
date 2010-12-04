@@ -22,6 +22,15 @@ h1 {
  margin: 24px 0 2px 0;
  padding: 5px 0 6px 0;
 }
+h3 {
+ color: #444;
+ background-color: transparent;
+ font-size: 16px;
+ font-weight: bold;
+ margin: 0px 0 2px 0;
+ padding: 5px 0 6px 0;
+ text-align: center;
+}
 
 code {
  font-family: Monaco, Verdana, Sans-serif;
@@ -38,4 +47,8 @@ code {
 .login_form img { margin-bottom: 2em; }
 .field { margin-bottom: 2em; }
 .field label { font-weight: bold; text-align: left; }
+.field input { width: 100%; }
 .actions { text-align: right; }
+
+.flash { margin: 0 auto; }
+.error { text-align: center; color: red; padding: 4px 0 4px 0; margin-bottom: 1em; border: 1px solid; }

@@ -5,6 +5,7 @@ class Welcome extends Controller {
 	function Welcome()
 	{
 		parent::Controller();	
+		$this->load->library('session');
 	}
 	
 	function index()

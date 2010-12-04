@@ -18,7 +18,7 @@ class User extends Controller {
 		else
 		{
 			$this->session->set_flashdata('error', 'Unable to log in');
-			redirect("");
+			redirect('');
 		}
 	}
 }

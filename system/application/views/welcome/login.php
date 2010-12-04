@@ -15,17 +15,27 @@
 	
 	<div class="grid_3">
 		<div class="login_form">
+			
+			<h3>Nuhoc Gear Locker</h3>
 		
 			<form method="POST" action="index.php/user/login">
 				<div class="field">
 					<label for="email">Email Address</label><br/>
-					<input type="text" id="email" name="email" size="32"/>
+					<input type="text" id="email" name="email" />
 				</div>
 			
 				<div class="field">
 					<label for="password">Password</label><br/>
-					<input type="text" id="password" name="password" size="32"/>
+					<input type="password" id="password" name="password" />
 				</div>
+			
+				<?php if ($this->session->flashdata('error')): ?>
+					<div class="flash">
+						<div class="error">
+							<?php echo $this->session->flashdata('error'); ?>
+						</div>
+					</div>
+				<?php endif; ?>
 			
 				<div class="actions">
 					<input type="submit" name="Login" value="Login"/>
