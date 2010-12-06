@@ -9,6 +9,7 @@
 <body>
 <div class="container_12">
 	<div class="grid_2 prefix_3">
+		
 		<img src="img/nuhoclogo.png" alt="Nuhoc Logo"/>
 		
 	</div>
@@ -18,7 +19,8 @@
 			
 			<h3>Nuhoc Gear Locker</h3>
 		
-			<form method="POST" action="index.php/user/login">
+			<?php echo form_open("auth/login"); ?>
+			<!-- <form method="POST" action="index.php/user/login"> -->
 				<div class="field">
 					<label for="email">Email Address</label><br/>
 					<input type="text" id="email" name="email" />
