@@ -21,6 +21,8 @@ class Auth extends Controller {
 			// $login_is_success = false;
 			
 			if ( $login_is_success ) {
+				// Set the user guid as a session parameter
+				//$this->session->
 				redirect('rentals/index');
 			} else {
 				$this->session->set_flashdata('error',
