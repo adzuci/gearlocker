@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Nuhoc Gearlocker - Dashboard</title>
+
+<link rel="stylesheet" media="screen" href="css/reset.css" />
+<link rel="stylesheet" media="screen" href="css/grid.css" />
+<link rel="stylesheet" media="screen" href="css/style.css" />
+<link rel="stylesheet" media="screen" href="css/messages.css" />
+<link rel="stylesheet" media="screen" href="css/forms.css" />
+<link rel="stylesheet" media="screen" href="css/tables.css" />
+
+<!--[if lt IE 8]>
+<link rel="stylesheet" media="screen" href="css/ie.css" />
+<![endif]-->
+
+<!-- jquerytools -->
+<script src="js/jquery.tools.min.js"></script>
+
+<script type="text/javascript" src="js/global.js"></script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<script type="text/javascript" src="js/PIE.js"></script>
+<script type="text/javascript" src="js/IE9.js"></script>
+<script type="text/javascript" src="js/ie.js"></script>
+<![endif]-->
+
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="container_8 clearfix">
+                <h1 class="grid_1"><a href="dashboard.html">GearLocker</a></h1>
+                <nav class="grid_7">
+                    <ul class="clearfix">
+                        <li class="action">
+                            <a href="#" class="button button-green"><span class="add"></span>New Rental</a>
+                        </li>
+                        <li class="action">
+                            <a href="#" class="button button-green"><span class="add"></span>New Member</a>
+                        </li>
+                        <li class="fr"><a href="#">Logout</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <section>
+            <div class="container_8 clearfix">
+
+                <!-- Sidebar -->
+
+                <aside class="grid_1">
+
+                    <nav class="global">
+                        <ul class="clearfix">
+                            <li><a class="nav-icon icon-house" href="dashboard.html">Dashboard</a></li>
+                            <li class="active"><a class="nav-icon" href="members.html">Members</a></li>
+                            <li><a class="nav-icon" href="gear.html">Gear</a></li>
+                            <li><a class="nav-icon" href="rentals.html">Rentals</a></li>
+                        </ul>
+                    </nav>
+
+                </aside>
+
+                <!-- Sidebar End -->
+                
+
+                <!-- Main Section -->
+
+                <section class="main-section grid_7">
+
+                    <div class="main-content">
+                        <header>
+                            <h2>New Member</h2>
+                        </header>
+
+                        <section class="container_6 clearfix">
+                            <div class="grid_6">
+
+																<form id="new_member" class="form grid_6">
+																		<fieldset>
+																				<legend>Member Information</legend>
+																				<label>Name <em>*</em><small>Enter your name</small></label><input type="text" name="name" required="required"/>
+																				<label>Phone Number <em>*</em><small>(XXX) XXX-XXXX</small></label><input type="text" name="phone" required="required"/>
+		                                    <label>Email <em>*</em><small>A valid email address</small></label><input type="email" name="email" required="required" />
+		                                    <div class="action">
+		                                        <button class="button button-gray" type="submit"><span class="accept"></span>Save</button>
+																				</div>
+																		</fieldset>
+																</form>
+
+                            </div>
+                        </section>
+                    </div>
+
+                </section>
+
+                <!-- Main Section End -->
+
+            </div>
+            <div id="push"></div>
+        </section>
+    </div>
+    
+    <footer>
+        <div id="footer-inner" class="container_8 clearfix">
+            <div class="grid_8">
+							<span class="fr"><a href="#">Laser moose</a></span>
+                &copy; 2011 Northeastern University Huskiers &amp; Outing Club.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
