@@ -3,9 +3,18 @@
 	<div class="grid_3">
 		<h3>New Members</h3>
 		<hr/>
+		
 		<ul style="margin:0; padding-left: 0; list-style:none;">
-			<li>Daniel Bostwick</li>
+		<?php foreach($newest_members as $member): ?>
+			<li>
+				<a href=<?php echo site_url("member/" . $member->id); ?>>
+					<?php echo $member->name; ?>
+				</a>
+				joined on <?php echo $member->created_at; ?>
+			</li>
+		<?php endforeach; ?>
 		</ul>
+
 	</div>
 
 	<div class="grid_3">
