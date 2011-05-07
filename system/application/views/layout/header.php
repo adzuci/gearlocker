@@ -11,14 +11,6 @@
 <link rel="stylesheet" media="screen" <?php echo "href=\"" . base_url() . "css/forms.css\""?> />
 <link rel="stylesheet" media="screen" <?php echo "href=\"" . base_url() . "css/tables.css\""?> />
 
-<!--
-<link rel="stylesheet" media="screen" href="../css/grid.css" />
-<link rel="stylesheet" media="screen" href="../css/style.css" />
-<link rel="stylesheet" media="screen" href="../css/messages.css" />
-<link rel="stylesheet" media="screen" href="../css/forms.css" />
-<link rel="stylesheet" media="screen" href="../css/tables.css" />
--->
-
 <!--[if lt IE 8]>
 <link rel="stylesheet" media="screen" href="css/ie.css" />
 <![endif]-->

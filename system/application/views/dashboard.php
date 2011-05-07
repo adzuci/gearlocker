@@ -7,7 +7,7 @@
 		<ul style="margin:0; padding-left: 0; list-style:none;">
 		<?php foreach($newest_members as $member): ?>
 			<li>
-				<a href=<?php echo site_url("member/" . $member->id); ?>>
+				<a href=<?php echo site_url("members/show/" . $member->id); ?>>
 					<?php echo $member->name; ?>
 				</a>
 				joined on <?php echo $member->created_at; ?>

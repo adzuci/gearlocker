@@ -24,6 +24,12 @@ class Member extends Model {
 		return $query->result();
 	}
 	
+	function get_all()
+	{
+		$query = $this->db->get('Members');
+		return $query->result();
+	}
+	
 }
 
 /* End of file User.php */
