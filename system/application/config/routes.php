@@ -43,6 +43,7 @@
 $route['default_controller'] = "welcome";
 $route['scaffolding_trigger'] = "";
 $route['login'] = "auth/login";
+$route['dashboard'] = "dashboard/show";
 
 
 /* End of file routes.php */

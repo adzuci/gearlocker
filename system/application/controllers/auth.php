@@ -18,12 +18,11 @@ class Auth extends Controller {
 		if ( $email && $password )
 		{
 			$login_is_success = $this->User->authenticate($email, $password);
-			// $login_is_success = false;
 			
 			if ( $login_is_success ) {
 				// Set the user guid as a session parameter
 				//$this->session->
-				redirect('rentals/index');
+				redirect('dashboard');
 			} else {
 				$this->session->set_flashdata('error',
 					"The email address or password you entered is incorrect.");

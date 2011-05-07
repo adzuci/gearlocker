@@ -11,7 +11,6 @@ class Welcome extends Controller {
 	
 	function index()
 	{
-		if ( !)
 		$this->load->view('welcome/login');
 	}
 }
